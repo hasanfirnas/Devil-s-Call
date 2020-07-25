@@ -26,10 +26,10 @@ import base64
 RED, WHITE, CYAN, GREEN, DEFAULT , YELLOW, YELLOW2, GREEN2 = '\033[1;91m', '\033[46m', '\033[1;36m', '\033[1;32m', '\033[3;0m' , '\033[1;33m' , '\033[1;93m', '\033[1;92m'
 
 def verCheck():
-    #system('clear')
+    system('clear')
     print("\n{0}[{2}#{0}] {2}Checking For Updates{2}...".format(RED, WHITE, CYAN, GREEN, DEFAULT , YELLOW ))
     system('wget -q -O test.txt https://raw.githubusercontent.com/404-ghost/Devil-s-Call/master/version.txt')
-    #system('clear')
+    system('clear')
     file = open('version.txt','r')
     a = file.read()
     x = a.split("\n")
