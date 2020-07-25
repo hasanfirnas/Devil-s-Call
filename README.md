@@ -26,4 +26,4 @@ python3 anonymouskiller.py
 ![Shot](https://imgur.com/lKQPeVX.png)
 
 # SCREENSHOT (android-termux):
-![Shot](https://imgur.com/qpTDw8n.png)
+![Shot]()
