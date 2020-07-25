@@ -5,7 +5,7 @@ import base64
 import multiprocessing
 import gettext
 import sys
-import ssl
+#import ssl
 import re
 import json
 import subprocess
@@ -106,3 +106,4 @@ if __name__=='__main__':
     p2 = Process(target = loadingHack())
     p2.start()
     print("\n")
+#
