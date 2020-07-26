@@ -67,7 +67,7 @@ def verCheck():
 def loadingHack():
     system("clear")
     print("\n\n{3}".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW))
-    chaine ="/////////////////////"+"[*]"+" Starting bomb......"+"/////////////////////".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW)
+    chaine ="/////////////////////"+"[*]"+" Starting Devil-s-Call......"+"/////////////////////".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW)
     charspec = "$*X^%\#~?;"
     i=0
     while i<1:
