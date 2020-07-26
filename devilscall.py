@@ -61,7 +61,7 @@ def verCheck():
         print("{0}[{2}*{0}] {0}[{2}Current{0}]{2}- {0}v {6}\n{0}[{2}*{0}] {0}[{2}Available{0}]{2}- {0}v.{7}{4}".format(RED, WHITE, CYAN, GREEN, DEFAULT , YELLOW, x[0], z[0]))
         sleep(1)
         system('clear')
-        print("\n\n\n\t\t{2}[{0}#{2}] {0}Restart program \n {2}Enter this command to run {0}-> {3}python3 anonymouskiller.py".format(RED, WHITE, CYAN, GREEN, DEFAULT , YELLOW))
+        print("\n\n\n\t\t{2}[{0}#{2}] {0}Restart program \n {2}Enter this command to run {0}-> {3}python3 devilscall.py".format(RED, WHITE, CYAN, GREEN, DEFAULT , YELLOW))
         exit()
 
 def loadingHack():
