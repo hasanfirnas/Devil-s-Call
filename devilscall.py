@@ -40,7 +40,7 @@ def verCheck():
     file2.close()
     if x[0] == z[0]:
         print("{0}[{2}#{0}] {2}[Up-To-Date]- {0}v {6}{4}".format(RED, WHITE, CYAN, GREEN, DEFAULT , YELLOW, z[0]))
-        system('git checkout HEAD^ data --quiet && git checkout HEAD^ devils_call.py --quiet && git checkout HEAD^ banner.py --quiet && git checkout HEAD^ LICENSE --quiet && git checkout HEAD^ version.txt --quiet')
+        system('git checkout HEAD^ data --quiet && git checkout HEAD^ devilscall.py --quiet && git checkout HEAD^ banner.py --quiet && git checkout HEAD^ LICENSE --quiet && git checkout HEAD^ version.txt --quiet')
         #system('git stash --quiet')
         system('git pull --quiet')
         system('rm -rf test.txt')
@@ -49,7 +49,7 @@ def verCheck():
         print("\n{0}[{2}#{0}] {2}Their Is A Newer Version Available.".format(RED, WHITE, CYAN, GREEN, DEFAULT , YELLOW))
         print("{0}[{2}#{0}] {0}[{2}Current{0}]{2}- {0}v {6}\n{0}[{2}#{0}] {0}[{2}Available{0}]{2}- {0}v.{7}".format(RED, WHITE, CYAN, GREEN, DEFAULT, YELLOW, x[0], z[0])) 
         print("{0}[{2}#{0}] {2}Updating To The Latest Version {0}[{2}v {6}{0}] \n{0}[{2}#{0}] {2}Please Wait....{7}\n".format(RED, WHITE, CYAN, GREEN, DEFAULT , YELLOW, z[0] ,GREEN2))
-        system('git checkout HEAD^ data --quiet && git checkout HEAD^ devils_call.py --quiet && git checkout HEAD^ banner.py --quiet && git checkout HEAD^ LICENSE --quiet && git checkout HEAD^ version.txt --quiet')
+        system('git checkout HEAD^ data --quiet && git checkout HEAD^ devilscall.py --quiet && git checkout HEAD^ banner.py --quiet && git checkout HEAD^ LICENSE --quiet && git checkout HEAD^ version.txt --quiet')
         system('git stash --quiet')
         system('git pull')
         sleep(1)
