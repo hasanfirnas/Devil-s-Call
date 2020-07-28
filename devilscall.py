@@ -97,8 +97,6 @@ def magic():
     file2.writelines(L) 
     file2.close()
 
-
-
 if __name__=='__main__':
     verCheck()
     p1 = Process(target = magic())
