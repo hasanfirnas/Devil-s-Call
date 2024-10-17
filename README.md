@@ -1,46 +1,58 @@
 <p align="center">
-  #TO BE USED FOR EDUCATIONAL PURPOSES ONLY#
+  # USARE SOLO PER SCOPI EDUCATIVI #
 </p>
 
-# PREREQUISITES:
-* Python 3
-* boxes(banner)
-* wget
+# Prerequisiti
+Assicurati di avere installato i seguenti strumenti:
 
-# Installing Termux(android):
-## step 1 (install this before you start):
-```
-apt update && upgrade
+* Python 3
+* `boxes` (per banner)
+* `wget`
+
+# Installazione su Termux (Android)
+
+## Passo 1: Configurazione iniziale
+Esegui i seguenti comandi per aggiornare il sistema e installare i pacchetti necessari:
+```bash
+apt update && apt upgrade
 pkg install python
 pkg install wget
 pkg install curl
 pkg install boxes
 ```
-## step 2:
-```
+
+## Passo 2: Clonare il repository
+Dopo aver completato la configurazione, esegui i seguenti comandi:
+```bash
 git clone https://github.com/404-ghost/Devil-s-Call
 cd Devil-s-Call
 python3 anonymouskiller.py
 ```
 
-# Installing Kali Linux:
-## step 1 (install this before you start):
-```
-apt update && upgrade
+# Installazione su Kali Linux
+
+## Passo 1: Configurazione iniziale
+Esegui i seguenti comandi per aggiornare il sistema e installare i pacchetti necessari:
+```bash
+apt update && apt upgrade
 apt-get install python
 apt-get install wget
 apt-get install curl
 apt-get install boxes
 ```
-## step 2:
-```
+
+## Passo 2: Clonare il repository
+Dopo aver completato la configurazione, esegui i seguenti comandi:
+```bash
 git clone https://github.com/404-ghost/Devil-s-Call
 cd Devil-s-Call
 python3 anonymouskiller.py
 ```
 
-# SCREENSHOT (Kali-linux):
-![Shot](https://imgur.com/lKQPeVX.png)
+# Screenshot
 
-# SCREENSHOT (android-termux):
-![Shot](https://imgur.com/EsQU2On.png)
+## Kali Linux
+![Screenshot di Kali Linux](https://imgur.com/lKQPeVX.png)
+
+## Termux (Android)
+![Screenshot di Termux](https://imgur.com/EsQU2On.png)
