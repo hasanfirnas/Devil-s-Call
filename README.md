@@ -1,58 +1,63 @@
 <p align="center">
-  # USARE SOLO PER SCOPI EDUCATIVI #
+  <strong>⚠️ USE AT YOUR OWN RISK ⚠️</strong>
 </p>
 
-# Prerequisiti
-Assicurati di avere installato i seguenti strumenti:
+# 🕶️ Prerequisites
+Make sure you've got the following tools in your arsenal:
 
-* Python 3
-* `boxes` (per banner)
-* `wget`
+- **Python 3** 🐍
+- **`boxes`** (for crafting banners) 📦
+- **`wget`** (for fetching files) 📥
 
-# Installazione su Termux (Android)
+# 📲 Installation on Termux (Android)
 
-## Passo 1: Configurazione iniziale
-Esegui i seguenti comandi per aggiornare il sistema e installare i pacchetti necessari:
+## Step 1: Initial Recon
+Launch the terminal and run these commands to update your system and install essential packages:
 ```bash
-apt update && apt upgrade
-pkg install python
-pkg install wget
-pkg install curl
-pkg install boxes
+apt update && apt upgrade -y
+pkg install python -y
+pkg install wget -y
+pkg install curl -y
+pkg install boxes -y
 ```
 
-## Passo 2: Clonare il repository
-Dopo aver completato la configurazione, esegui i seguenti comandi:
-```bash
-git clone https://github.com/404-ghost/Devil-s-Call
-cd Devil-s-Call
-python3 anonymouskiller.py
-```
-
-# Installazione su Kali Linux
-
-## Passo 1: Configurazione iniziale
-Esegui i seguenti comandi per aggiornare il sistema e installare i pacchetti necessari:
-```bash
-apt update && apt upgrade
-apt-get install python
-apt-get install wget
-apt-get install curl
-apt-get install boxes
-```
-
-## Passo 2: Clonare il repository
-Dopo aver completato la configurazione, esegui i seguenti comandi:
+## Step 2: Clone the Repo
+After setting up, pull the project from the shadows:
 ```bash
 git clone https://github.com/404-ghost/Devil-s-Call
 cd Devil-s-Call
 python3 anonymouskiller.py
 ```
 
-# Screenshot
+# 🐧 Installation on Kali Linux
+
+## Step 1: Initial Recon
+Fire up your terminal and run the following commands to ensure your system is armed and ready:
+```bash
+apt update && apt upgrade -y
+apt-get install python -y
+apt-get install wget -y
+apt-get install curl -y
+apt-get install boxes -y
+```
+
+## Step 2: Clone the Repo
+Once you're configured, infiltrate the repository:
+```bash
+git clone https://github.com/404-ghost/Devil-s-Call
+cd Devil-s-Call
+python3 anonymouskiller.py
+```
+
+# 📸 Screenshots
 
 ## Kali Linux
-![Screenshot di Kali Linux](https://imgur.com/lKQPeVX.png)
+![Kali Linux Screenshot](https://imgur.com/lKQPeVX.png)
 
 ## Termux (Android)
-![Screenshot di Termux](https://imgur.com/EsQU2On.png)
+![Termux Screenshot](https://imgur.com/EsQU2On.png)
+
+---
+
+### ⚡️ Stay Stealthy, Stay Smart!
+This setup is for educational purposes only. Use your powers wisely and always respect the digital world.
