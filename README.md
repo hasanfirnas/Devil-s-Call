@@ -1,46 +1,67 @@
 <p align="center">
-  #TO BE USED FOR EDUCATIONAL PURPOSES ONLY#
+  <strong>⚠️ USE AT YOUR OWN RISK ⚠️</strong>
 </p>
 
-# PREREQUISITES:
-* Python 3
-* boxes(banner)
-* wget
+# 🕶️ Prerequisites
+Before you dive in, ensure you have these tools ready:
 
-# Installing Termux(android):
-## step 1 (install this before you start):
+- **Python 3** 🐍
+- **`boxes`** (for creating banners) 📦
+- **`wget`** (for downloading files) 📥
+
+# 📲 Installation on Termux (Android)
+
+## Step 1: System Update
+Open your terminal and run the following commands to update your system and install essential packages:
+
+```bash
+apt update && apt upgrade -y
+pkg install python -y
+pkg install wget -y
+pkg install curl -y
+pkg install boxes -y
 ```
-apt update && upgrade
-pkg install python
-pkg install wget
-pkg install curl
-pkg install boxes
-```
-## step 2:
-```
+
+## Step 2: Clone the Repository
+Once your environment is set up, pull the project:
+
+```bash
 git clone https://github.com/404-ghost/Devil-s-Call
 cd Devil-s-Call
 python3 anonymouskiller.py
 ```
 
-# Installing Kali Linux:
-## step 1 (install this before you start):
+# 🐧 Installation on Kali Linux
+
+## Step 1: System Update
+Launch your terminal and run these commands to prepare your system:
+
+```bash
+apt update && apt upgrade -y
+apt-get install python -y
+apt-get install wget -y
+apt-get install curl -y
+apt-get install boxes -y
 ```
-apt update && upgrade
-apt-get install python
-apt-get install wget
-apt-get install curl
-apt-get install boxes
-```
-## step 2:
-```
+
+## Step 2: Clone the Repository
+After configuration, clone the repository:
+
+```bash
 git clone https://github.com/404-ghost/Devil-s-Call
 cd Devil-s-Call
 python3 anonymouskiller.py
 ```
 
-# SCREENSHOT (Kali-linux):
-![Shot](https://imgur.com/lKQPeVX.png)
+# 📸 Screenshots
 
-# SCREENSHOT (android-termux):
-![Shot](https://imgur.com/EsQU2On.png)
+### Kali Linux
+![Kali Linux Screenshot](https://imgur.com/lKQPeVX.png)
+
+### Termux (Android)
+![Termux Screenshot](https://imgur.com/EsQU2On.png)
+
+---
+
+### ⚡️ Stay Stealthy, Stay Smart!
+This setup is intended for educational purposes only. Use your knowledge responsibly and always respect the digital landscape.
