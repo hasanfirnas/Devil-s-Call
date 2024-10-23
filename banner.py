@@ -9,19 +9,21 @@ YELLOW2 = '\033[1;93m'
 GREEN2 = '\033[1;92m'
 
 def banner():
-    kill = '''
-{5}██████{0}╗ {5}███████{0}╗{5}██{0}╗   {5}██{0}╗{5}██{0}╗{5}██{0}╗   {5}█{0}╗ {5}███████{0}╗     {5}██████{0}╗ {5}█████{0}╗ {5}██{0}╗     {5}██{0}╗     
-{5}██{0}╔══{5}██{0}╗{5}██{0}╔════╝{5}██{0}║   {5}██{0}║{5}██{0}║{5}██{0}║   {0}╚╝ {5}██{0}╔════╝    {5}██{0}╔════╝{5}██{0}╔══{5}██{0}╗{5}██{0}║     {5}██{0}║     
-{5}██{0}║  {5}██{0}║{5}█████{0}╗  {5}██{0}║   {5}██{0}║{5}██{0}║{5}██{0}║      {5}███████{0}╗    {5}██{0}║     {5}███████{0}║{5}██{0}║     {5}██{0}║     
-{5}██{0}║  {5}██{0}║{5}██{0}╔══╝  ╚{5}██{0}╗ {5}██╔{0}╝{5}██{0}║{5}██{0}║      ╚════{5}██{0}║    {5}██{0}║     {5}██{0}╔══{5}██{0}║{5}██{0}║     {5}██{0}║     
-{5}██████{0}╔╝{5}███████{0}╗ ╚{5}████{0}╔╝ {5}██{0}║{5}███████{0}╗ {5}███████{0}║    ╚{5}██████{0}╗{5}██{0}║  {5}██{0}║{5}███████{0}╗{5}███████{0}╗
+    """Display the banner for the application."""
+    kill = f'''
+{YELLOW}██████{DEFAULT}╗ {YELLOW}███████{DEFAULT}╗{YELLOW}██{DEFAULT}╗   {YELLOW}██{DEFAULT}╗{YELLOW}██{DEFAULT}╗{YELLOW}██{DEFAULT}╗   {YELLOW}█{DEFAULT}╗ {YELLOW}███████{DEFAULT}╗     {YELLOW}██████{DEFAULT}╗ {YELLOW}█████{DEFAULT}╗ {YELLOW}██{DEFAULT}╗     {YELLOW}██{DEFAULT}╗     
+{YELLOW}██{DEFAULT}╔══{YELLOW}██{DEFAULT}╗{YELLOW}██{DEFAULT}╔════╝{YELLOW}██{DEFAULT}║   {YELLOW}██{DEFAULT}║{YELLOW}██{DEFAULT}║{YELLOW}██{DEFAULT}║   {DEFAULT}╚╝ {YELLOW}██{DEFAULT}╔════╝    {YELLOW}██{DEFAULT}╔════╝{YELLOW}██{DEFAULT}╔══{YELLOW}██{DEFAULT}╗{YELLOW}██{DEFAULT}║     {YELLOW}██{DEFAULT}║     
+{YELLOW}██{DEFAULT}║  {YELLOW}██{DEFAULT}║{YELLOW}█████{DEFAULT}╗  {YELLOW}██{DEFAULT}║   {YELLOW}██{DEFAULT}║{YELLOW}██{DEFAULT}║{YELLOW}██{DEFAULT}║      {YELLOW}███████{DEFAULT}╗    {YELLOW}██{DEFAULT}║     {YELLOW}███████{DEFAULT}║{YELLOW}██{DEFAULT}║     {YELLOW}██{DEFAULT}║     
+{YELLOW}██{DEFAULT}║  {YELLOW}██{DEFAULT}║{YELLOW}██{DEFAULT}╔══╝  ╚{YELLOW}██{DEFAULT}╗ {YELLOW}██╔{DEFAULT}╝{YELLOW}██{DEFAULT}║{YELLOW}██{DEFAULT}║      ╚════{YELLOW}██{DEFAULT}║    {YELLOW}██{DEFAULT}║     {YELLOW}██{DEFAULT}╔══{YELLOW}██{DEFAULT}║{YELLOW}██{DEFAULT}║     {YELLOW}██{DEFAULT}║     
+{YELLOW}██████{DEFAULT}╔╝{YELLOW}███████{DEFAULT}╗ ╚{YELLOW}████{DEFAULT}╔╝ {YELLOW}██{DEFAULT}║{YELLOW}███████{DEFAULT}╗ {YELLOW}███████{DEFAULT}║    ╚{YELLOW}██████{DEFAULT}╗{YELLOW}██{DEFAULT}║  {YELLOW}██{DEFAULT}║{YELLOW}███████{DEFAULT}╗{YELLOW}███████{DEFAULT}╗
 ╚═════╝ ╚══════╝  ╚═══╝  ╚═╝╚══════╝ ╚══════╝     ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝
-    '''.format(RED, WHITE, CYAN, GREEN, DEFAULT, YELLOW)
+    '''
 
     # Displaying the banner
-    print("\t\t\t{2}YOU ARE GOING TO MAKE A{4}".format(RED, WHITE, CYAN, GREEN, DEFAULT, YELLOW))
+    print(f"\t\t\t{CYAN}YOU ARE GOING TO MAKE A{GREEN}")
     print(kill)
-    print("{0} \n\t\t\t\tby hasanfirnas{1}".format(GREEN, DEFAULT))  # Signature
+    print(f"{GREEN} \n\t\t\t\tby hasanfirnas{DEFAULT}")  # Signature
 
 # Call the banner function to display it
-banner()
+if __name__ == "__main__":
+    banner()
